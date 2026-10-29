@@ -1,0 +1,17 @@
+{
+    "project": "LoanLines",
+    "target": "TARGET",
+    "class_0": "Repay / Non-default",
+    "class_1": "Default",
+    "models": [
+        "Logistic Regression",
+        "Random Forest",
+        "Gaussian Naive Bayes",
+        "LightGBM",
+        "MLP Neural Network"
+    ],
+    "undersampling": true,
+    "kmeans_k": 4,
+    "encoded_feature_count": 594,
+    "best_model_by_default_f1": "LightGBM"
+}
